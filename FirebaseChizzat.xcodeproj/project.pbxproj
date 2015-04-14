@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9D3DCA1AB1CD240084E183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D3DC91AB1CD240084E183 /* AppDelegate.swift */; };
+		5A9D3DCF1AB1CD240084E183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D3DCD1AB1CD240084E183 /* Main.storyboard */; };
+		5A9D3DD11AB1CD240084E183 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D3DD01AB1CD240084E183 /* Images.xcassets */; };
+		5A9D3DD41AB1CD240084E183 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D3DD21AB1CD240084E183 /* LaunchScreen.xib */; };
+		5A9D3DE01AB1CD240084E183 /* FirebaseChizzatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D3DDF1AB1CD240084E183 /* FirebaseChizzatTests.swift */; };
+		5A9D3DEB1AB1CD5C0084E183 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D3DEA1AB1CD5C0084E183 /* Firebase.framework */; };
+		5A9D3DED1AB1CE470084E183 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D3DEC1AB1CE470084E183 /* libicucore.dylib */; };
+		5A9D3DEF1AB1CE550084E183 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D3DEE1AB1CE550084E183 /* libc++.dylib */; };
+		5A9D3DF11AB1CE5E0084E183 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D3DF01AB1CE5E0084E183 /* CFNetwork.framework */; };
+		5A9D3DF31AB1CE6A0084E183 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D3DF21AB1CE6A0084E183 /* Security.framework */; };
+		5A9D3DF51AB1CE760084E183 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D3DF41AB1CE760084E183 /* SystemConfiguration.framework */; };
+		5A9D3DFA1AB1D1800084E183 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D3DF91AB1D1800084E183 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9D3DDA1AB1CD240084E183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9D3DBC1AB1CD240084E183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9D3DC31AB1CD240084E183;
+			remoteInfo = FirebaseChizzat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9D3DC41AB1CD240084E183 /* FirebaseChizzat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChizzat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9D3DC81AB1CD240084E183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9D3DC91AB1CD240084E183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A9D3DCE1AB1CD240084E183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A9D3DD01AB1CD240084E183 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A9D3DD31AB1CD240084E183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A9D3DD91AB1CD240084E183 /* FirebaseChizzatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseChizzatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9D3DDE1AB1CD240084E183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9D3DDF1AB1CD240084E183 /* FirebaseChizzatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseChizzatTests.swift; sourceTree = "<group>"; };
+		5A9D3DEA1AB1CD5C0084E183 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		5A9D3DEC1AB1CE470084E183 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		5A9D3DEE1AB1CE550084E183 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		5A9D3DF01AB1CE5E0084E183 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5A9D3DF21AB1CE6A0084E183 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5A9D3DF41AB1CE760084E183 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5A9D3DF61AB1CFF90084E183 /* FirebaseChizzat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirebaseChizzat-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A9D3DF91AB1D1800084E183 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9D3DC11AB1CD240084E183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D3DF51AB1CE760084E183 /* SystemConfiguration.framework in Frameworks */,
+				5A9D3DF31AB1CE6A0084E183 /* Security.framework in Frameworks */,
+				5A9D3DF11AB1CE5E0084E183 /* CFNetwork.framework in Frameworks */,
+				5A9D3DEF1AB1CE550084E183 /* libc++.dylib in Frameworks */,
+				5A9D3DED1AB1CE470084E183 /* libicucore.dylib in Frameworks */,
+				5A9D3DEB1AB1CD5C0084E183 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9D3DD61AB1CD240084E183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9D3DBB1AB1CD240084E183 = {
+			isa = PBXGroup;
+			children = (
+				5A9D3DC61AB1CD240084E183 /* FirebaseChizzat */,
+				5A9D3DDC1AB1CD240084E183 /* FirebaseChizzatTests */,
+				5A9D3DC51AB1CD240084E183 /* Products */,
+				5A9D3DE91AB1CD3D0084E183 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9D3DC51AB1CD240084E183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D3DC41AB1CD240084E183 /* FirebaseChizzat.app */,
+				5A9D3DD91AB1CD240084E183 /* FirebaseChizzatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9D3DC61AB1CD240084E183 /* FirebaseChizzat */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D3DF91AB1D1800084E183 /* TableViewController.swift */,
+				5A9D3DC91AB1CD240084E183 /* AppDelegate.swift */,
+				5A9D3DCD1AB1CD240084E183 /* Main.storyboard */,
+				5A9D3DD01AB1CD240084E183 /* Images.xcassets */,
+				5A9D3DD21AB1CD240084E183 /* LaunchScreen.xib */,
+				5A9D3DC71AB1CD240084E183 /* Supporting Files */,
+				5A9D3DF61AB1CFF90084E183 /* FirebaseChizzat-Bridging-Header.h */,
+			);
+			path = FirebaseChizzat;
+			sourceTree = "<group>";
+		};
+		5A9D3DC71AB1CD240084E183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D3DC81AB1CD240084E183 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9D3DDC1AB1CD240084E183 /* FirebaseChizzatTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D3DDF1AB1CD240084E183 /* FirebaseChizzatTests.swift */,
+				5A9D3DDD1AB1CD240084E183 /* Supporting Files */,
+			);
+			path = FirebaseChizzatTests;
+			sourceTree = "<group>";
+		};
+		5A9D3DDD1AB1CD240084E183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D3DDE1AB1CD240084E183 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9D3DE91AB1CD3D0084E183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D3DF41AB1CE760084E183 /* SystemConfiguration.framework */,
+				5A9D3DF21AB1CE6A0084E183 /* Security.framework */,
+				5A9D3DF01AB1CE5E0084E183 /* CFNetwork.framework */,
+				5A9D3DEE1AB1CE550084E183 /* libc++.dylib */,
+				5A9D3DEC1AB1CE470084E183 /* libicucore.dylib */,
+				5A9D3DEA1AB1CD5C0084E183 /* Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9D3DC31AB1CD240084E183 /* FirebaseChizzat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9D3DE31AB1CD240084E183 /* Build configuration list for PBXNativeTarget "FirebaseChizzat" */;
+			buildPhases = (
+				5A9D3DC01AB1CD240084E183 /* Sources */,
+				5A9D3DC11AB1CD240084E183 /* Frameworks */,
+				5A9D3DC21AB1CD240084E183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseChizzat;
+			productName = FirebaseChizzat;
+			productReference = 5A9D3DC41AB1CD240084E183 /* FirebaseChizzat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9D3DD81AB1CD240084E183 /* FirebaseChizzatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9D3DE61AB1CD240084E183 /* Build configuration list for PBXNativeTarget "FirebaseChizzatTests" */;
+			buildPhases = (
+				5A9D3DD51AB1CD240084E183 /* Sources */,
+				5A9D3DD61AB1CD240084E183 /* Frameworks */,
+				5A9D3DD71AB1CD240084E183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9D3DDB1AB1CD240084E183 /* PBXTargetDependency */,
+			);
+			name = FirebaseChizzatTests;
+			productName = FirebaseChizzatTests;
+			productReference = 5A9D3DD91AB1CD240084E183 /* FirebaseChizzatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9D3DBC1AB1CD240084E183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Richard Tyran";
+				TargetAttributes = {
+					5A9D3DC31AB1CD240084E183 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5A9D3DD81AB1CD240084E183 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5A9D3DC31AB1CD240084E183;
+					};
+				};
+			};
+			buildConfigurationList = 5A9D3DBF1AB1CD240084E183 /* Build configuration list for PBXProject "FirebaseChizzat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9D3DBB1AB1CD240084E183;
+			productRefGroup = 5A9D3DC51AB1CD240084E183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9D3DC31AB1CD240084E183 /* FirebaseChizzat */,
+				5A9D3DD81AB1CD240084E183 /* FirebaseChizzatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9D3DC21AB1CD240084E183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D3DCF1AB1CD240084E183 /* Main.storyboard in Resources */,
+				5A9D3DD41AB1CD240084E183 /* LaunchScreen.xib in Resources */,
+				5A9D3DD11AB1CD240084E183 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9D3DD71AB1CD240084E183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9D3DC01AB1CD240084E183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D3DCA1AB1CD240084E183 /* AppDelegate.swift in Sources */,
+				5A9D3DFA1AB1D1800084E183 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9D3DD51AB1CD240084E183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D3DE01AB1CD240084E183 /* FirebaseChizzatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9D3DDB1AB1CD240084E183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9D3DC31AB1CD240084E183 /* FirebaseChizzat */;
+			targetProxy = 5A9D3DDA1AB1CD240084E183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9D3DCD1AB1CD240084E183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9D3DCE1AB1CD240084E183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A9D3DD21AB1CD240084E183 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9D3DD31AB1CD240084E183 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9D3DE11AB1CD240084E183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A9D3DE21AB1CD240084E183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9D3DE41AB1CD240084E183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseChizzat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirebaseChizzat/FirebaseChizzat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A9D3DE51AB1CD240084E183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseChizzat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirebaseChizzat/FirebaseChizzat-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5A9D3DE71AB1CD240084E183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirebaseChizzatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseChizzat.app/FirebaseChizzat";
+			};
+			name = Debug;
+		};
+		5A9D3DE81AB1CD240084E183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirebaseChizzatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseChizzat.app/FirebaseChizzat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9D3DBF1AB1CD240084E183 /* Build configuration list for PBXProject "FirebaseChizzat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9D3DE11AB1CD240084E183 /* Debug */,
+				5A9D3DE21AB1CD240084E183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9D3DE31AB1CD240084E183 /* Build configuration list for PBXNativeTarget "FirebaseChizzat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9D3DE41AB1CD240084E183 /* Debug */,
+				5A9D3DE51AB1CD240084E183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A9D3DE61AB1CD240084E183 /* Build configuration list for PBXNativeTarget "FirebaseChizzatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9D3DE71AB1CD240084E183 /* Debug */,
+				5A9D3DE81AB1CD240084E183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9D3DBC1AB1CD240084E183 /* Project object */;
+}
